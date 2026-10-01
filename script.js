@@ -1095,7 +1095,7 @@ function displayBooks() {
 		card.appendChild(author);
 		// displaying the authors name using a method called textContent to update the empty p class added above using a temperate litteral 
 		author.textContent = `Author: ${books[i].author}`;
-// created a attribute using createElement called img then declared it image using appemdchild we created the card then added the images a temp litteral using dot bracket notataion using zero indexing where count starts at 1
+// created a element using createElement called img then declared it image using appemdchild we created the card then added the images a temp litteral using dot bracket notataion using zero indexing where count starts at 0
 		let image = document.createElement("img");
 
 		card.appendChild(image);
@@ -1111,29 +1111,4 @@ displayBooks();
 document.body.style.backgroundImage =
 	"url('https://plus.unsplash.com/premium_photo-1677187301660-5e557d9c0724?q=80&w=665&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
 
-//  the fallowing code is preparation for the inital  push to git hub as it is my portfolio this is why its commented out
-// README.md
-// # NYT BEST BOOK LOOPS
-
-// Filters threw and array of dat using a traditional for loop adding classes in javas script that are used in the style declaration. <-----ask phil if this is correct term
-// ***update correct turn if wrong****
-
-// ## Demo
-// codepen url/ add my got hun url of published page
-
-// ## Features
-// - Takes an  ajson array of data filters threw it with a traditional for loop
-// - Adds a class in javas script that can be styled in css
-// - Displays Book, Author, image in the UI
-
-// ## Technologies
-// - HTML
-// - CSS
-// - JavaScript
-
-// ## What I Learned
-// - adding a empty variable can be styled later in javascript, when using add clss list we have to also use appendchild
-// - [zero indecting, global/local scope, filtering thew an array. adding a class in js can allow u to edit any styles or add images and text
-
-// ## Future Improvements
-// - adding apu key from live server
+/
